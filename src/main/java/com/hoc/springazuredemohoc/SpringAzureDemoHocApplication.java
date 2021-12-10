@@ -11,7 +11,7 @@ public class SpringAzureDemoHocApplication {
 
     @GetMapping("/message")
     public String message() {
-        return "Congrats! It is deployed in azure!";
+        return "Congrats! It is deployed in azure for the second time!";
     }
 
     public static void main(String[] args) {
